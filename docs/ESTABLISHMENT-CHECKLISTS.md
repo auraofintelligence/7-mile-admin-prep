@@ -55,7 +55,7 @@ Separate accounts, competent approvals and an explicit service agreement support
 The exact parcel and actual uses determine the approval pathway. Temporary does not establish exemption.
 
 - [ ] T26 Check current zoning, overlays and existing approvals
-- [ ] T27 Describe day activities, residency and temporary stays separately
+- [ ] T27 Describe permanent living day activities residencies and short stays separately
 - [ ] T28 Request Council pre-lodgement guidance against the parcel
 - [ ] T29 Screen SARA state referral triggers
 - [ ] T30 Confirm cultural heritage process for site activities
@@ -98,3 +98,77 @@ Opening decisions follow evidence and actual board decisions. Public updates omi
 - [ ] T50 Run induction, emergency drill and operating rehearsal
 - [ ] T51 Record separate day-activity and stay opening decisions
 - [ ] T52 Approve a redacted public progress update
+
+## Original plan and site layout
+
+Read the concept, reconcile its estimates and shape small clusters around cultural direction.
+
+- [ ] T53 Capture the original site plan and founder corrections
+- [ ] T54 Reconcile areas structure counts and flexible-place estimates
+- [ ] T55 Sketch culturally directed clusters and retained areas
+
+## Permanent living and shared community life
+
+Residents, medium-term guests and short-stay visitors have distinct arrangements and shared routines.
+
+- [ ] T56 Record permanent resident medium-term and short-stay needs
+- [ ] T57 Set resident allocation and occupancy arrangement questions
+- [ ] T58 Draft the permanent living and residency framework
+- [ ] T89 Draft everyday resident guest and host community agreements
+- [ ] T90 Set voluntary stewardship learning and contribution routines
+- [ ] T91 Rehearse shared-life routines and review the selected stage
+
+## Clean-up and existing dwelling
+
+Record the site, sort materials and assess the dwelling transition with accommodation continuity.
+
+- [ ] T59 Record existing materials structures and clean-up areas
+- [ ] T60 Plan material sorting reuse storage and disposal
+- [ ] T61 Carry out the authorised clean-up stage and record outcomes
+- [ ] T62 Record existing dwelling condition and shared-use options
+- [ ] T63 Plan the replacement-home and dwelling transition sequence
+- [ ] T64 Record a dwelling transition decision and handover conditions
+
+## Modular places tracks and services
+
+Test the 20/20/30 structure options and 40/15/10 flexible places against actual access and service needs.
+
+- [ ] T65 Match expandable buildings and containers to actual uses
+- [ ] T66 Check modular specifications delivery foundations and costs
+- [ ] T67 Choose a staged modular purchase hire or defer schedule
+- [ ] T68 Describe the tent van caravan bus and house-truck options
+- [ ] T69 Test sandy tracks turning loops and pedestrian separation
+- [ ] T70 Set stage-specific flexible-place capacity and arrival rules
+- [ ] T86 Build household visitor kitchen garden and workshop load scenarios
+- [ ] T87 Test water harvesting wastewater power and outage options
+- [ ] T88 Draft commons and service commissioning schedule
+
+## Kitchen amenities and food growing
+
+Connect shared cooking cold storage amenities food forest nursery and Tower Farm through a small first stage.
+
+- [ ] T71 Specify shared kitchen cold storage and three amenity options
+- [ ] T72 Record kitchen design food-service and amenities responses
+- [ ] T73 Draft kitchen cold-chain and amenities operating routines
+- [ ] T74 Define food forest orchard garden and nursery trial areas
+- [ ] T75 Design a Tower Farm and Seedling Hub trial beside the kitchen
+- [ ] T76 Set seasonal growing harvest and kitchen handoff routines
+
+## Culture making and learning
+
+Culturally directed gatherings and supervised making have different spaces permissions and mentors.
+
+- [ ] T77 Record cultural directions for ceremony yarning and gathering
+- [ ] T78 Plan shade access quiet separation and gathering services
+- [ ] T79 Agree gathering calendar host roles and recording permissions
+- [ ] T80 Choose first making repair and tool-sharing activities
+- [ ] T81 Plan workshop zones storage induction and material intake
+- [ ] T82 Prepare a supervised repair and learning session
+
+## Connected labs and service agreements
+
+Treat linked projects as distinct proposals and record each useful interface explicitly.
+
+- [ ] T83 Map separate Maker-Space Tip Loop and Capsule Surge interfaces
+- [ ] T84 Prepare proposed tool material training and specialist-stay terms
+- [ ] T85 Record confirm defer or decline decisions for each interface

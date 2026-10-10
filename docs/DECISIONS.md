@@ -7,6 +7,7 @@
 | Indigenous control | Majority in both; member control in not-for-profit | Membership, shares, votes and durable control design |
 | ORIC route | Working option for not-for-profit | Founders approve rule book and registration pathway |
 | Commercial structure | Pty Ltd working option | Direct ownership or community corporation subsidiary; share classes |
+| Community life | Permanent residents, medium-term residencies, short stays, culture, growing and making | Resident arrangements, staged layout, service loads and shared-life handbook |
 | Cultural authority | Relevant people direct cultural activities | Protocol and permissions chosen by those people |
 | Land | Native title claim | Claim reference and mapped area, cultural authority, existing agreements, authorised permissions and survey |
 | Capacity | Concept estimates only | Approved uses, occupancy, access and utility capacity |

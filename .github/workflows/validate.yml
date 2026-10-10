@@ -20,3 +20,4 @@ jobs:
       - run: python scripts/validate.py
       - run: node --check dist/app.js
       - run: node scripts/test-routing.cjs
+      - run: node scripts/test-planning.cjs

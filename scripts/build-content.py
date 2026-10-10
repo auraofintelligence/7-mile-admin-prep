@@ -46,6 +46,8 @@ SCOPE AND SOURCE ORDER
 5. Political conversations already occurred according to the founder. Do not turn goodwill into endorsement, funding, land rights or regulatory approval. Do not publish unapproved personal meeting details.
 6. Verify current legal requirements, templates and agency names against official primary sources. Cite URL, page title, relevant section and date checked. Distinguish law, official guidance, proposed clauses and unresolved choices. Not-for-profit status, charity registration, tax concessions and DGR endorsement are separate questions.
 7. 7-Mile is on a native title claim. Use native title claim as the land context. Record the claim reference, mapped area, relevant claimants, cultural permissions and existing agreements. Do not assume a Crown land tenure or lease, or describe native title as a zoning category. Claim status, boundaries, planning controls, approvals, site capacity and operating assumptions require supporting records. Do not claim tents, caravans, containers or temporary structures are automatically exempt.
+7-MILE CONCEPT
+The original plan is a Noonuccal-led lived community with permanent residents, medium-term residencies, short stays, ceremony, gardens, making and learning. Read https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html and the original-plan mapping before drafting. Preserve permanent living as distinct from guest bookings. Small clusters share kitchens, amenities, shade and services while retaining scrub and cultural space. The 15-acre description, 13.4-acre firebreak trace and concept structure/pitch quantities are working references, not surveyed boundaries or approved occupancy. The existing dwelling transition, clean-up, food forest, bush orchard, nursery, Tower Farm and Seedling Hub are explicit planning elements. Linked Maker-Space, Tip Loop and Capsule Surge labs have separate site and operator choices. Carry across useful interfaces without assuming co-location or commitments. Draft the chosen stage and identify later options separately.
 WORKING METHOD
 Read the supplied source pack and decision register first. Return a short input-gap table, then a usable draft with [TO CONFIRM] fields. Do not stall drafting where optional inputs are missing. Mark assumptions clearly; invent no names, consents, numbers, resolutions, signatures, fees or partnerships. Describe Indigenous majority in ownership, votes and durable control where applicable; a not-for-profit membership body is not privately owned equity.
 Use plain Australian English and ASCII hyphens. Keep language provisional where founders have not decided. Avoid assumed authority, filler and unrelated ecosystem ambitions. Cultural authority and statutory corporate authority are different and both need clear interfaces.
@@ -180,8 +182,11 @@ checks=[
  dict(id='C06',title='Cultural activity pilot',tasks=['T35','T36','T37','T42','T43','T44','T45'],note='Begin with culturally approved offerings and evidenced demand and operating requirements.'),
  dict(id='C07',title='Accommodation and residency readiness',tasks=['T38','T39','T40','T41','T42','T43'],note='Lawful capacity, water/waste capacity and cash operating assumptions shape the stay model.'),
  dict(id='C08',title='Release and public progress',tasks=['T46','T47','T48','T49','T50','T51','T52'],note='Opening decisions follow evidence and actual board decisions. Public updates omit restricted material.')]
-data=dict(version=1,updated='2026-10-10',docs=docs,tasks=tasks,refs=refs,agencies=agencies,sourcefiles=[dict(title=t,role=r,note=n) for t,r,n in sourcefiles],checklists=checks)
+from seven_mile_specific import customise, write_mapping
+specific=customise(doc,task,ref,docs,tasks,checks,base,refs)
+data=dict(**specific,version=2,updated='2026-10-10',docs=docs,tasks=tasks,refs=refs,agencies=agencies,sourcefiles=[dict(title=t,role=r,note=n) for t,r,n in sourcefiles],checklists=checks)
 (D/'data.js').write_text('window.PLAN = '+json.dumps(data,ensure_ascii=False)+';\n')
+write_mapping(ROOT,data)
 (D/'plan.json').write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n')
 for x in docs:
  md='# '+x['title']+'\n\nStatus: To prepare | Owner: '+x['owner']+' | Version: 0.1 | Date: 10 October 2026\n\n'+x['purpose']+'\n\n## Inputs\n\n'+'\n'.join('- '+s for s in x['inputs'])+'\n\n## Contents checklist\n\n'+'\n'.join('- [ ] '+s for s in x['sections'])+'\n\n## Review checklist\n\n'+'\n'.join('- [ ] '+s for s in x['checks'])+'\n\n## Dependencies\n\n'+(', '.join(x['depends']) or 'Founding source and decision registers')+'\n\n## Reference links\n\n'+'\n'.join('- ['+r['title']+']('+r['url']+')' for r in refs if r['id'] in x['sources'])+'\n\n## AI master prompt\n\n```text\n'+x['prompt']+'```\n'
@@ -202,6 +207,7 @@ for name,rows,keys in [('tasks',tasks,['id','title','stream','phase','document',
 | Indigenous control | Majority in both; member control in not-for-profit | Membership, shares, votes and durable control design |
 | ORIC route | Working option for not-for-profit | Founders approve rule book and registration pathway |
 | Commercial structure | Pty Ltd working option | Direct ownership or community corporation subsidiary; share classes |
+| Community life | Permanent residents, medium-term residencies, short stays, culture, growing and making | Resident arrangements, staged layout, service loads and shared-life handbook |
 | Cultural authority | Relevant people direct cultural activities | Protocol and permissions chosen by those people |
 | Land | Native title claim | Claim reference and mapped area, cultural authority, existing agreements, authorised permissions and survey |
 | Capacity | Concept estimates only | Approved uses, occupancy, access and utility capacity |

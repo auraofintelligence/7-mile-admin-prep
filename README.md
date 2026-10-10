@@ -2,19 +2,27 @@
 
 Public workbench: **https://seven-mile-planning-admin.auraofintelligence.chatgpt.site**
 
-A focused establishment and operating preparation hub for an Indigenous-led 7-Mile project on Minjerribah / North Stradbroke Island, Queensland. It brings together a proposed not-for-profit and Indigenous-majority commercial entity, cultural activities and temporary accommodation/residencies.
+A focused establishment and operating preparation hub for an Indigenous-led 7-Mile project on Minjerribah / North Stradbroke Island, Queensland. It brings together a proposed not-for-profit and Indigenous-majority commercial entity, permanent community living, cultural activities, food growing, making, medium-term residencies and short stays.
 
 ## Included
 
-- 38 responsive pages: eight main destinations and 30 individual document pages.
-- 52 tasks with phases, dependencies, document links and completion evidence.
-- 30 document briefs with inputs, content and review checklists, source links and individual AI master prompts.
-- Eight establishment and readiness checklists.
-- 32 references, including official template download links and comparison sources.
+- 52 responsive pages: nine main destinations and 43 individual document pages.
+- 91 tasks with phases, dependencies, document links and completion evidence.
+- 43 document briefs with inputs, content and review checklists, source links and individual AI master prompts.
+- 15 establishment and readiness checklists.
+- 43 references, including official template download links and comparison sources.
 - 14 local, state and federal agency entries with remits and useful questions.
 - Generated landlocked bushland hero artwork on every page and a generated favicon.
 - Site tree, footer previous/next links and a floating return-to-top button.
 - Browser-local task/checklist notes, working-note JSON export/import, and seeded CSV/JSON downloads.
+
+## Original plan customisation
+
+The Original plan page maps 13 elements of the existing [7-Mile concept](https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html) into documents, tasks and checklists. It preserves permanent living, small-cluster layout, the proposed expandable-building and flexible-place mixes, existing dwelling transition, clean-up, shared kitchen and amenities, ceremony grounds, food forest, orchard, nursery, Tower Farm, commons and water harvesting.
+
+`docs/ORIGINAL-PLAN-MAPPING.md` records the source-to-work mapping and quantity checks. `scripts/seven_mile_specific.py` maintains the customisation. Concept estimates remain separate from actual procurement, surveyed boundaries and operating capacity. The original rounded figures total about 54,259 m2 against about 54,228 m2 for 13.4 acres; the difference is visible rather than silently adjusted.
+
+Maker-Space, Tip Loop and Capsule Surge are related proposals with distinct site and operator choices. Their interfaces are explored in D41; no co-location or partnership is assumed. Older financial C-Hour text on the Tip Loop site is excluded.
 
 ## Current planning positions
 
@@ -28,13 +36,15 @@ The site is landlocked. The artwork is generated concept art, not photography of
 
 ## Files and maintenance
 
-`dist/` contains the deployable static site. `scripts/build-content.py` is the source of planning content, prompts and CSV exports. `scripts/build-pages.py` creates the page shells. `dist/app.js` contains the interactive workbench; `dist/styles.css` its visual system. `docs/prompts/` provides readable Markdown briefs for all 30 documents. `docs/DECISIONS.md` records current choices and gaps.
+`dist/` contains the deployable static site. `scripts/build-content.py` is the source of planning content, prompts and CSV exports. `scripts/build-pages.py` creates the page shells. `dist/app.js` contains the interactive workbench; `dist/styles.css` its visual system. `docs/prompts/` provides readable Markdown briefs for all 43 documents. `docs/DECISIONS.md` records current choices and gaps.
 
 ```sh
 python scripts/build-content.py
 python scripts/build-pages.py
 python scripts/validate.py
 node --check dist/app.js
+node scripts/test-routing.cjs
+node scripts/test-planning.cjs
 ```
 
 No installation or framework build is required. Serve `dist/` with any static web host. The public Site is deployed separately; a GitHub commit does not automatically update it. Future changes are validated, pushed and deployed as a matching Site version.

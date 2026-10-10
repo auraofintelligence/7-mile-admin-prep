@@ -7,6 +7,8 @@ SCOPE AND SOURCE ORDER
 5. Political conversations already occurred according to the founder. Do not turn goodwill into endorsement, funding, land rights or regulatory approval. Do not publish unapproved personal meeting details.
 6. Verify current legal requirements, templates and agency names against official primary sources. Cite URL, page title, relevant section and date checked. Distinguish law, official guidance, proposed clauses and unresolved choices. Not-for-profit status, charity registration, tax concessions and DGR endorsement are separate questions.
 7. 7-Mile is on a native title claim. Use native title claim as the land context. Record the claim reference, mapped area, relevant claimants, cultural permissions and existing agreements. Do not assume a Crown land tenure or lease, or describe native title as a zoning category. Claim status, boundaries, planning controls, approvals, site capacity and operating assumptions require supporting records. Do not claim tents, caravans, containers or temporary structures are automatically exempt.
+7-MILE CONCEPT
+The original plan is a Noonuccal-led lived community with permanent residents, medium-term residencies, short stays, ceremony, gardens, making and learning. Read https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html and the original-plan mapping before drafting. Preserve permanent living as distinct from guest bookings. Small clusters share kitchens, amenities, shade and services while retaining scrub and cultural space. The 15-acre description, 13.4-acre firebreak trace and concept structure/pitch quantities are working references, not surveyed boundaries or approved occupancy. The existing dwelling transition, clean-up, food forest, bush orchard, nursery, Tower Farm and Seedling Hub are explicit planning elements. Linked Maker-Space, Tip Loop and Capsule Surge labs have separate site and operator choices. Carry across useful interfaces without assuming co-location or commitments. Draft the chosen stage and identify later options separately.
 WORKING METHOD
 Read the supplied source pack and decision register first. Return a short input-gap table, then a usable draft with [TO CONFIRM] fields. Do not stall drafting where optional inputs are missing. Mark assumptions clearly; invent no names, consents, numbers, resolutions, signatures, fees or partnerships. Describe Indigenous majority in ownership, votes and durable control where applicable; a not-for-profit membership body is not privately owned equity.
 Use plain Australian English and ASCII hyphens. Keep language provisional where founders have not decided. Avoid assumed authority, filler and unrelated ecosystem ambitions. Cultural authority and statutory corporate authority are different and both need clear interfaces.
@@ -20,3 +22,8 @@ DOCUMENT CONTENT: Purposes; membership; board composition; elections; meetings a
 DOCUMENT-SPECIFIC REVIEW: Map clauses to current CATSI guidance; preserve Indigenous member/director requirements; charity-compatible purposes if pursued; keep operating policies outside the rule book
 REFERENCE IDS: rulebook, oric, acnc
 DEPENDENCIES: D01, D02
+
+REFERENCE LINKS:
+ORIC: register a new corporation - https://www.oric.gov.au/start-corporation/registration-processes-and-ORIC-support/register-new-corporation
+ORIC condensed rule book - https://www.oric.gov.au/for-corporations/rule-books
+ACNC charity application - https://www.acnc.gov.au/for-charities/start-charity/apply

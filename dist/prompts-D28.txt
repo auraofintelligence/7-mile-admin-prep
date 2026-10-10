@@ -7,6 +7,8 @@ SCOPE AND SOURCE ORDER
 5. Political conversations already occurred according to the founder. Do not turn goodwill into endorsement, funding, land rights or regulatory approval. Do not publish unapproved personal meeting details.
 6. Verify current legal requirements, templates and agency names against official primary sources. Cite URL, page title, relevant section and date checked. Distinguish law, official guidance, proposed clauses and unresolved choices. Not-for-profit status, charity registration, tax concessions and DGR endorsement are separate questions.
 7. 7-Mile is on a native title claim. Use native title claim as the land context. Record the claim reference, mapped area, relevant claimants, cultural permissions and existing agreements. Do not assume a Crown land tenure or lease, or describe native title as a zoning category. Claim status, boundaries, planning controls, approvals, site capacity and operating assumptions require supporting records. Do not claim tents, caravans, containers or temporary structures are automatically exempt.
+7-MILE CONCEPT
+The original plan is a Noonuccal-led lived community with permanent residents, medium-term residencies, short stays, ceremony, gardens, making and learning. Read https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html and the original-plan mapping before drafting. Preserve permanent living as distinct from guest bookings. Small clusters share kitchens, amenities, shade and services while retaining scrub and cultural space. The 15-acre description, 13.4-acre firebreak trace and concept structure/pitch quantities are working references, not surveyed boundaries or approved occupancy. The existing dwelling transition, clean-up, food forest, bush orchard, nursery, Tower Farm and Seedling Hub are explicit planning elements. Linked Maker-Space, Tip Loop and Capsule Surge labs have separate site and operator choices. Carry across useful interfaces without assuming co-location or commitments. Draft the chosen stage and identify later options separately.
 WORKING METHOD
 Read the supplied source pack and decision register first. Return a short input-gap table, then a usable draft with [TO CONFIRM] fields. Do not stall drafting where optional inputs are missing. Mark assumptions clearly; invent no names, consents, numbers, resolutions, signatures, fees or partnerships. Describe Indigenous majority in ownership, votes and durable control where applicable; a not-for-profit membership body is not privately owned equity.
 Use plain Australian English and ASCII hyphens. Keep language provisional where founders have not decided. Avoid assumed authority, filler and unrelated ecosystem ambitions. Cultural authority and statutory corporate authority are different and both need clear interfaces.
@@ -15,8 +17,13 @@ Provide: (a) concise document with version/date/status/owner/approver; (b) decis
 
 DOCUMENT: Funding, procurement and asset register
 PURPOSE: Record actual funding opportunities, purchasing and assets without reliance on grants.
-INPUTS TO REQUEST: Operating model; funding needs; eligibility; current rounds; asset holder; quotes; prior useful studies
-DOCUMENT CONTENT: Opportunity evidence; eligibility and deadlines; use of funds; restrictions; quotations; procurement approvals; asset title; maintenance; report obligations
+INPUTS TO REQUEST: Operating model; funding needs; eligibility; current rounds; asset holder; quotes; prior useful studies; Modular supplier evidence D35 and separate tool owners D40
+DOCUMENT CONTENT: Opportunity evidence; eligibility and deadlines; use of funds; restrictions; quotations; procurement approvals; asset title; maintenance; report obligations; Freight foundations services cold storage growing tools and maintenance by chosen stage
 DOCUMENT-SPECIFIC REVIEW: No grant marked secured without evidence; no unverified claims about prior Minjerribah Futures spending; previous work assessed for relevance and reuse; funding stays separate from C-Hours
 REFERENCE IDS: qld-support, iba, tourism-hub
 DEPENDENCIES: D22, D15
+
+REFERENCE LINKS:
+Queensland Tourism Support Hub - https://www.detsi.qld.gov.au/tourism/tourism-support/support-hub
+Business Queensland: Indigenous business support - https://www.business.qld.gov.au/running-business/support-services/programs-networks/indigenous
+Indigenous Business Australia - https://business.gov.au/expertise-and-advice/indigenous-business-australia

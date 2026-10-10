@@ -19,7 +19,7 @@ D17,Compliance and reporting calendar,Governance,Track each entity obligation an
 D18,Council pre-lodgement brief and approvals matrix,Land & approvals,Present actual activities to assessors and record the development pathway.,Founding group,To prepare,D03
 D19,Staged site concept and infrastructure brief,Land & approvals,"Translate the concept into a phased, evidence-led site programme.",Founding group,To prepare,D02; D03; D18
 D20,Cultural activities business plan,Business & operations,Prepare a focused plan for cultural experiences and creative activities.,Founding group,To prepare,D02; D12; D18
-D21,Temporary accommodation and residency business plan,Business & operations,Prepare the stay model separately from cultural activity income.,Founding group,To prepare,D18; D19
+D21,Temporary accommodation and residency business plan,Business & operations,Plan medium-term residencies and short stays alongside a separate permanent community living framework.,Founding group,To prepare,D18; D19
 D22,Cash budget and scenario model specification,Business & operations,Define a transparent cash forecast for each entity and consolidated view.,Founding group,To prepare,D20; D21; D16
 D23,Visitor booking terms and operating handbook,Business & operations,"Prepare practical booking, visitor conduct and daily operating procedures.",Founding group,To prepare,D20; D21; D02
 D24,"Safety, emergency and insurance pack",Business & operations,Prepare a site-specific risk and emergency plan tied to actual services.,Founding group,To prepare,D19; D20; D21
@@ -29,3 +29,16 @@ D27,Agency engagement and written-answer register,Relationships,Organise useful 
 D28,"Funding, procurement and asset register",Governance,"Record actual funding opportunities, purchasing and assets without reliance on grants.",Founding group,To prepare,D22; D15
 D29,Pilot readiness and opening decision pack,Business & operations,Bring evidence together for a bounded first activity or stay stage.,Founding group,To prepare,D18; D23; D24; D25; D26
 D30,"Decision, version and public progress register",Foundations,Keep a reliable administration trail without exposing private records.,Founding group,To prepare,D01
+D31,7-Mile site master brief and concept register,Land & approvals,Turn the original Noonuccal-led living-community concept into a staged site brief with a traceable area and use register.,Founding group,To prepare,D01; D02; D03
+D32,Permanent community living and residency framework,Business & operations,"Plan permanent residents, medium-term residencies and short stays as three distinct parts of community life.",Founding group,To prepare,D02; D03; D12; D31
+D33,Site clean-up and material sorting plan,Land & approvals,"Organise the clean-up, sorting and on-ground recording already identified in the original concept.",Founding group,To prepare,D02; D03; D31
+D34,Existing dwelling and replacement-home transition brief,Land & approvals,Evaluate repurposing the handmade dwelling after an expandable replacement home is established.,Founding group,To prepare,D03; D31; D35
+D35,Modular buildings and staged procurement schedule,Land & approvals,"Test the proposed expandable buildings and standard containers against real uses, island delivery and service capacity.",Founding group,To prepare,D03; D18; D31
+D36,Flexible visitor places and vehicle movement plan,Land & approvals,"Develop the tent, van, caravan, bus and house-truck options alongside sandy tracks and turning space.",Founding group,To prepare,D18; D21; D31; D32
+D37,Shared kitchen cold storage and amenities operating brief,Business & operations,"Plan the shared kitchen, cold storage and three amenity blocks as serviced community facilities.",Founding group,To prepare,D18; D31; D32; D42
+D38,Food forest gardens and Tower Farm plan,Business & operations,"Bring the food forest, bush orchard, gardens, bush tucker nursery, Tower Farm and Seedling Hub into a practical growing programme.",Founding group,To prepare,D02; D31; D42
+D39,Ceremony cultural grounds and gathering brief,Business & operations,"Plan ceremony grounds, yarning, teaching and gathering under the relevant Noonuccal cultural direction.",Founding group,To prepare,D02; D20; D26; D31
+D40,7-Mile making repair and tool-sharing brief,Business & operations,Define a suitable making and learning space at 7-Mile with practical links to the separate Maker-Space and Tip Loop proposals.,Founding group,To prepare,D25; D31; D33
+D41,Connected labs and service interface register,Relationships,"Record useful relationships with Maker-Space, Tip Loop and Capsule Surge without assuming shared sites, ownership or agreements.",Founding group,To prepare,D12; D13; D31; D40
+D42,Commons water harvesting and site services plan,Land & approvals,"Coordinate commons, water harvesting and the service loads behind homes, gardens, kitchens and visitor places.",Founding group,To prepare,D03; D18; D31
+D43,Shared community life and stewardship handbook,Business & operations,"Make everyday life, welcoming, learning and stewardship work across residents, guests and cultural hosts.",Founding group,To prepare,D12; D25; D26; D32; D37; D39

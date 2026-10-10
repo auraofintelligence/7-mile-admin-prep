@@ -1,0 +1,341 @@
+{
+  "themes": [
+    {
+      "id": "living",
+      "title": "Permanent living and residencies",
+      "original": "Permanent residents, medium-term residencies and short stays are all part of the original Noonuccal-led concept.",
+      "anchor": "hero",
+      "documents": [
+        "D32",
+        "D43"
+      ],
+      "tasks": [
+        "T56",
+        "T57",
+        "T58",
+        "T89",
+        "T90",
+        "T91"
+      ],
+      "checklist": "C10",
+      "stream": "Community living",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html"
+    },
+    {
+      "id": "layout",
+      "title": "Site areas and clustered layout",
+      "original": "About 15 acres described; 13.4 acres traced inside the firebreak; 1.02 km around the measured path. Small clusters retain scrub and room for shared life.",
+      "anchor": "site-reference",
+      "documents": [
+        "D31"
+      ],
+      "tasks": [
+        "T53",
+        "T54",
+        "T55"
+      ],
+      "checklist": "C09",
+      "stream": "Site planning",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#site-reference"
+    },
+    {
+      "id": "cleanup",
+      "title": "Clean-up and material sorting",
+      "original": "Clean, sort and record the land before choosing what gets repaired reused moved or disposed of.",
+      "anchor": "ground-notes",
+      "documents": [
+        "D33"
+      ],
+      "tasks": [
+        "T59",
+        "T60",
+        "T61"
+      ],
+      "checklist": "C11",
+      "stream": "Site preparation",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#ground-notes"
+    },
+    {
+      "id": "dwelling",
+      "title": "Existing dwelling transition",
+      "original": "Consider shared use of the handmade dwelling after a suitable replacement expandable home is established.",
+      "anchor": "ground-notes",
+      "documents": [
+        "D34"
+      ],
+      "tasks": [
+        "T62",
+        "T63",
+        "T64"
+      ],
+      "checklist": "C11",
+      "stream": "Site preparation",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#ground-notes"
+    },
+    {
+      "id": "buildings",
+      "title": "Expandable buildings and containers",
+      "original": "20 expandable 40-foot, 20 expandable 20-foot and 30 standard 20-foot structure options require individual uses specifications and staged decisions.",
+      "anchor": "capacity",
+      "documents": [
+        "D35"
+      ],
+      "tasks": [
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checklist": "C12",
+      "stream": "Buildings & places",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#capacity"
+    },
+    {
+      "id": "places",
+      "title": "Flexible visitor places and sandy tracks",
+      "original": "40 tent swag or small-van, 15 caravan or larger-rig and 10 bus or house-truck options sit alongside sandy tracks and turning loops.",
+      "anchor": "capacity",
+      "documents": [
+        "D36"
+      ],
+      "tasks": [
+        "T68",
+        "T69",
+        "T70"
+      ],
+      "checklist": "C12",
+      "stream": "Buildings & places",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#capacity"
+    },
+    {
+      "id": "kitchen",
+      "title": "Shared kitchen cold storage and amenities",
+      "original": "A shared kitchen cold storage and three amenity blocks connect daily living gatherings and guests.",
+      "anchor": "capacity",
+      "documents": [
+        "D37"
+      ],
+      "tasks": [
+        "T71",
+        "T72",
+        "T73"
+      ],
+      "checklist": "C13",
+      "stream": "Shared facilities",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#capacity"
+    },
+    {
+      "id": "growing",
+      "title": "Food forest orchard nursery and Tower Farm",
+      "original": "Food forest bush orchard gardens bush tucker nursery and the Tower Farm and Seedling Hub have distinct growing plans.",
+      "anchor": "capacity",
+      "documents": [
+        "D38"
+      ],
+      "tasks": [
+        "T74",
+        "T75",
+        "T76"
+      ],
+      "checklist": "C13",
+      "stream": "Growing & commons",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#capacity"
+    },
+    {
+      "id": "culture",
+      "title": "Ceremony and cultural grounds",
+      "original": "Ceremony yarning teaching and gathering follow relevant Noonuccal direction, with room for restricted and public uses.",
+      "anchor": "layout",
+      "documents": [
+        "D39",
+        "D02"
+      ],
+      "tasks": [
+        "T77",
+        "T78",
+        "T79"
+      ],
+      "checklist": "C14",
+      "stream": "Culture & gatherings",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#layout"
+    },
+    {
+      "id": "making",
+      "title": "Making repair and learning",
+      "original": "A suitable 7-Mile work area starts with useful repair tool sharing material sorting and supervised learning.",
+      "anchor": "related-labs",
+      "documents": [
+        "D40"
+      ],
+      "tasks": [
+        "T80",
+        "T81",
+        "T82"
+      ],
+      "checklist": "C14",
+      "stream": "Making & learning",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#related-labs"
+    },
+    {
+      "id": "links",
+      "title": "Separate labs and service interfaces",
+      "original": "Maker-Space Tip Loop and Capsule Surge offer useful ideas and possible interfaces, each with its own site and operating choices.",
+      "anchor": "related-labs",
+      "documents": [
+        "D41",
+        "D13"
+      ],
+      "tasks": [
+        "T83",
+        "T84",
+        "T85"
+      ],
+      "checklist": "C15",
+      "stream": "Connected projects",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#related-labs"
+    },
+    {
+      "id": "commons",
+      "title": "Commons water harvesting and services",
+      "original": "Commons water harvesting household loads gardens food service and shared facilities need one coordinated service plan.",
+      "anchor": "capacity",
+      "documents": [
+        "D42"
+      ],
+      "tasks": [
+        "T86",
+        "T87",
+        "T88"
+      ],
+      "checklist": "C12",
+      "stream": "Growing & commons",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#capacity"
+    },
+    {
+      "id": "stages",
+      "title": "Stages and operating decisions",
+      "original": "Work from cultural direction and on-ground records into a selected stage, with permanent living cultural activities and stays considered separately.",
+      "anchor": "layout",
+      "documents": [
+        "D19",
+        "D29",
+        "D30"
+      ],
+      "tasks": [
+        "T33",
+        "T49",
+        "T51"
+      ],
+      "checklist": "C08",
+      "stream": "Land & approvals",
+      "source": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html#layout"
+    }
+  ],
+  "estimates": [
+    {
+      "element": "Site description",
+      "original": "About 15 acres",
+      "interpretation": "Description, not the measured firebreak area",
+      "document": "D31"
+    },
+    {
+      "element": "Working firebreak trace",
+      "original": "13.4 acres; 1.02 km perimeter",
+      "interpretation": "Reference trace, not a surveyed or claim boundary",
+      "document": "D31"
+    },
+    {
+      "element": "Structure options",
+      "original": "20 \u00d7 74 m2; 20 \u00d7 37 m2; 30 \u00d7 15 m2",
+      "interpretation": "70 structures, with use and occupancy still to be specified",
+      "document": "D35"
+    },
+    {
+      "element": "Shared roofs and facilities",
+      "original": "About 350 m2; three amenity blocks",
+      "interpretation": "Kitchen cold storage and amenities combined allowance",
+      "document": "D37"
+    },
+    {
+      "element": "Buildings before decks and shade",
+      "original": "About 3023 m2 on the original page",
+      "interpretation": "Rounded listed components total 3020 m2; retain both until specifications replace them",
+      "document": "D35"
+    },
+    {
+      "element": "Buildings studios and shared places",
+      "original": "About 4700 m2",
+      "interpretation": "Broader footprint allowance, separate from roof area",
+      "document": "D31"
+    },
+    {
+      "element": "Flexible visitor places",
+      "original": "40 \u00d7 65 m2; 15 \u00d7 90 m2; 10 \u00d7 125 m2",
+      "interpretation": "65 places; component areas sum to 5200 m2, not an occupancy limit",
+      "document": "D36"
+    },
+    {
+      "element": "Tracks and turning loops",
+      "original": "About 3200 m2; around 4 m wide",
+      "interpretation": "About 800 m equivalent at that width, not a measured road",
+      "document": "D36"
+    },
+    {
+      "element": "Ceremony and cultural grounds",
+      "original": "About 8000 m2",
+      "interpretation": "Cultural direction and gathering needs determine use",
+      "document": "D39"
+    },
+    {
+      "element": "Food forest and bush orchard",
+      "original": "About 18000 m2",
+      "interpretation": "Growing concept allowance",
+      "document": "D38"
+    },
+    {
+      "element": "Gardens and bush tucker nursery",
+      "original": "About 6000 m2",
+      "interpretation": "Distinct from food forest and tower growing",
+      "document": "D38"
+    },
+    {
+      "element": "Commons and water harvesting",
+      "original": "About 8159 m2",
+      "interpretation": "Shared-space allowance; no water yield is implied",
+      "document": "D42"
+    },
+    {
+      "element": "Tower Farm and Seedling Hub",
+      "original": "About 1000 m2 beside the kitchen",
+      "interpretation": "Trial scope and utility needs remain to be specified",
+      "document": "D38"
+    },
+    {
+      "element": "Culture growing and shared-life subtotal",
+      "original": "41159 m2",
+      "interpretation": "8000 + 18000 + 6000 + 8159 + 1000",
+      "document": "D31"
+    },
+    {
+      "element": "Whole footprint exercise",
+      "original": "54259 m2",
+      "interpretation": "4700 + 5200 + 3200 + 41159; 13.4 acres converts to about 54228 m2, a roughly 31 m2 rounding difference",
+      "document": "D31"
+    }
+  ],
+  "provenance": {
+    "reviewed": "2026-10-10",
+    "original": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/seven-mile.html",
+    "corrections": [
+      "Native title claim land context supplied by founder",
+      "No water views in site artwork",
+      "C-Hours have no financial aspect"
+    ],
+    "observations": [
+      "Original concept includes permanent residents",
+      "Ground described as flat dry raised and scrub-covered remains an observation rather than a drainage assessment",
+      "Maker-Space location discussion is Dunwich / Goompi",
+      "Capsule Surge has no nominated site",
+      "Older Tip Loop financial C-Hour language is superseded"
+    ]
+  }
+}

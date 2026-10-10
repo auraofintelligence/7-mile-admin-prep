@@ -20,6 +20,14 @@ def walk(id):
  active.remove(id);seen.add(id)
 for t in p['tasks']:walk(t['id'])
 for c in p['checklists']:assert set(c['tasks'])<=tids
+for t in p['themes']:
+ assert set(t['documents'])<=ids and set(t['tasks'])<=tids
+ assert t['checklist'] in {c['id'] for c in p['checklists']}
+ assert t['source'].startswith(p['provenance']['original'])
+for e in p['estimates']:assert e['document'] in ids
+assert (D/'plan.html').exists()
+assert len(p['themes'])==13
+assert all('permanent residents' in d['prompt'] and '7-Mile is on a native title claim' in d['prompt'] for d in p['docs'])
 class Links(HTMLParser):
  def handle_starttag(self,tag,attrs):
   for k,v in attrs:

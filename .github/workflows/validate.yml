@@ -19,3 +19,4 @@ jobs:
           node-version: '22'
       - run: python scripts/validate.py
       - run: node --check dist/app.js
+      - run: node scripts/test-routing.cjs

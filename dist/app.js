@@ -1,7 +1,8 @@
 'use strict';
 const P=window.PLAN;
 const pages=[['index.html','Overview'],['tasks.html','Task register'],['documents.html','Document studio'],['checklists.html','Checklists'],['references.html','References'],['agencies.html','Agency directory'],['decisions.html','Decisions & records'],['sitemap.html','Site tree']];
-const file=location.pathname.split('/').pop()||'index.html';
+const pagePath=location.pathname.replace(/\/+$/, '').split('/').pop()||'index';
+const file=document.body.dataset.page||(pagePath.endsWith('.html')?pagePath:pagePath+'.html');
 const docid=document.body.dataset.doc;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const unique=a=>[...new Set(a)];

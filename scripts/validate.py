@@ -29,5 +29,5 @@ class Links(HTMLParser):
 for f in D.glob('*.html'):
  l=Links();l.file=f;l.feed(f.read_text())
  assert 'route-nav' in f.read_text() and 'top-button' in f.read_text()
- assert 'AI-generated concept art' in f.read_text()
+ assert 'class="concept"' not in f.read_text()
 print(f"Validated {len(list(D.glob('*.html')))} pages, {len(p['docs'])} prompts, task dependency DAG, identifiers and local asset links.")

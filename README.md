@@ -24,7 +24,7 @@ Drafting and accounting setup are handled in-house. QYAC-assisted review through
 
 **C-Hours have no financial aspect.** No conversion, tradable value, financial backing, wage substitution or financial claim is included. The latest express correction overrides older financial material in the supplied source pack.
 
-The site is landlocked. The artwork is generated concept art, not photography of the actual property. Lot/plan, tenure, survey, approvals and occupancy capacity remain evidence tasks. Temporary structures are not assumed exempt from approvals.
+The site is landlocked. The artwork is generated concept art, not photography of the actual property. 7-Mile is on a native title claim. Claim records, mapped boundaries, cultural permissions, existing agreements, survey, approvals and occupancy capacity are recorded in the land evidence pack. Temporary structures are not assumed exempt from approvals.
 
 ## Files and maintenance
 

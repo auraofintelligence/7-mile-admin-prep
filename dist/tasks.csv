@@ -1,7 +1,7 @@
 id,title,stream,phase,document,owner,status,depends,acceptance
 T01,Confirm purposes and two-entity working structure,Foundations,Decide,D01,Founding group,To do,,"Decision record names the proposed structure, purposes and open ownership choices."
 T02,Agree cultural decision and permission process,Foundations,Decide,D02,Founding group,To do,T01,Relevant cultural decision holders determine the process and approved public terminology.
-T03,"Record exact lot/plan, tenure and access evidence",Land & approvals,Investigate,D03,Founding group,To do,T01,Parcel evidence and landholder permissions are indexed; tenure restrictions and unresolved questions are visible.
+T03,"Record native title claim, site boundaries and access evidence",Land & approvals,Investigate,D03,Founding group,To do,T01,"Native title claim records, mapped area, cultural permissions and access evidence are indexed; outstanding questions are visible."
 T04,Choose not-for-profit membership and director rules,Entities,Decide,D04,Founding group,To do,T01; T02,"Founders settle eligible membership, board composition and cultural governance interface."
 T05,Prepare ORIC not-for-profit rule book,Entities,Draft,D04,Founding group,To do,T04,Tailored version includes not-for-profit/winding-up clauses and clause-to-source review.
 T06,Collect private membership consents,Entities,Prepare,D05,Founding group,To do,T05,Consent and eligibility recorded privately; current membership requirements verified.

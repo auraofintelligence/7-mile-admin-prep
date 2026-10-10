@@ -1,7 +1,7 @@
 id,title,group,purpose,owner,status,depends
 D01,Founding brief and entity decision record,Foundations,Record the two-entity arrangement and the decisions still open.,Founding group,To prepare,
 D02,Cultural governance and authority protocol,Foundations,Define who directs cultural activities and how permission is requested and recorded.,Founding group,To prepare,D01
-D03,"Land, tenure and permission evidence pack",Land & approvals,Establish the parcel and rights for each proposed use.,Founding group,To prepare,D01
+D03,"Land, tenure and permission evidence pack",Land & approvals,Record the native title claim context and permissions for each proposed use.,Founding group,To prepare,D01
 D04,Not-for-profit purposes and ORIC rule book,Entities,Prepare a tailored CATSI not-for-profit rule book for member review.,Founding group,To prepare,D01; D02
 D05,Membership consent and register pack,Entities,Prepare private membership records and the registration member list.,Founding group,To prepare,D04
 D06,"Director consent, eligibility and appointment pack",Entities,Prepare officeholder records for each entity.,Founding group,To prepare,D01; D04

@@ -8,7 +8,7 @@
 | ORIC route | Working option for not-for-profit | Founders approve rule book and registration pathway |
 | Commercial structure | Pty Ltd working option | Direct ownership or community corporation subsidiary; share classes |
 | Cultural authority | Relevant people direct cultural activities | Protocol and permissions chosen by those people |
-| Land | Existing public concept | Lot/plan, tenure, authorised permissions, survey and restrictions |
+| Land | Native title claim | Claim reference and mapped area, cultural authority, existing agreements, authorised permissions and survey |
 | Capacity | Concept estimates only | Approved uses, occupancy, access and utility capacity |
 | Drafting/accounting | In-house | Roles and systems selected |
 | QYAC review | Possible through regular contractors | Agreement, capacity and scope |

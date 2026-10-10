@@ -4,11 +4,11 @@ All statuses are to do. Completion requires evidence.
 
 ## Founding decisions
 
-Set the people, purposes, control and land evidence before adopting documents.
+Set the people, purposes, control and native title claim evidence before adopting documents.
 
 - [ ] T01 Confirm purposes and two-entity working structure
 - [ ] T02 Agree cultural decision and permission process
-- [ ] T03 Record exact lot/plan, tenure and access evidence
+- [ ] T03 Record native title claim, site boundaries and access evidence
 - [ ] T04 Choose not-for-profit membership and director rules
 - [ ] T08 Choose share ownership, votes and durable control
 

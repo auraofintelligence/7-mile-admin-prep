@@ -1,0 +1,53 @@
+id,title,stream,phase,document,owner,status,depends,acceptance
+T01,Confirm purposes and two-entity working structure,Foundations,Decide,D01,Founding group,To do,,"Decision record names the proposed structure, purposes and open ownership choices."
+T02,Agree cultural decision and permission process,Foundations,Decide,D02,Founding group,To do,T01,Relevant cultural decision holders determine the process and approved public terminology.
+T03,"Record exact lot/plan, tenure and access evidence",Land & approvals,Investigate,D03,Founding group,To do,T01,Parcel evidence and landholder permissions are indexed; tenure restrictions and unresolved questions are visible.
+T04,Choose not-for-profit membership and director rules,Entities,Decide,D04,Founding group,To do,T01; T02,"Founders settle eligible membership, board composition and cultural governance interface."
+T05,Prepare ORIC not-for-profit rule book,Entities,Draft,D04,Founding group,To do,T04,Tailored version includes not-for-profit/winding-up clauses and clause-to-source review.
+T06,Collect private membership consents,Entities,Prepare,D05,Founding group,To do,T05,Consent and eligibility recorded privately; current membership requirements verified.
+T07,Prepare private director consents and eligibility records,Entities,Prepare,D06,Founding group,To do,T04,Officeholder eligibility checked per selected structure; director ID tasks recorded where applicable.
+T08,"Choose share ownership, votes and durable control",Entities,Decide,D09,Founding group,To do,T01,Cap table and dilution/transfer tests preserve the agreed Indigenous majority.
+T09,Draft commercial constitution,Entities,Draft,D08,Founding group,To do,T08,Share rights and board rules align with the control schedule.
+T10,Draft shareholders agreement,Entities,Draft,D09,Founding group,To do,T08; T09,"Reserved matters, transfers, dilution, deadlock and exits are reviewed together."
+T11,Assemble review pack and ask about QYAC-assisted review,Relationships,Review,D14,Founding group,To do,T05; T09; T10,Proposed reviewer scope and availability confirmed before treating review as agreed.
+T12,Resolve rule book and company document comments,Entities,Review,D14,Founding group,To do,T11,Each comment has a recorded response and decision owner.
+T13,Hold founding ORIC meeting or circulating consent process,Entities,Adopt,D07,Founding group,To do,T06; T07; T12,Actual votes and required pre-incorporation evidence recorded against current ORIC requirements.
+T14,Lodge ORIC application and record determination,Entities,Register,D07,Founding group,To do,T13,Lodgement receipt retained; registration only marked complete on certificate and approved rule book.
+T15,"Complete registered office, shares and ASIC registration inputs",Entities,Prepare,D10,Founding group,To do,T07; T12,"Private consents, share inputs and current fee captured."
+T16,Register commercial company and issue initial shares,Entities,Register,D10,Founding group,To do,T15,"Certificate, register, issued shares and first board resolutions match the agreed structure."
+T17,Assess charity eligibility and DGR separately,Entities,Investigate,D11,Founding group,To do,T05,Purpose/public benefit review identifies applicable pathway without assuming endorsement.
+T18,"Apply for ABNs, TFNs and relevant tax registrations",Entities,Register,D11,Founding group,To do,T14; T16; T17,Each entity records completed registrations and tax obligations based on actual activities.
+T19,Draft inter-entity responsibilities and community benefit terms,Relationships,Draft,D12,Founding group,To do,T05; T10,Each entity retains its duties; related-party terms and community benefit mechanism are clear.
+T20,Confirm Ready S.E.T. Co-op legal identity and service scope,Relationships,Investigate,D13,Founding group,To do,T19,"Actual provider, employer and training responsibilities confirmed before execution."
+T21,"Draft administration, employment and training service agreement",Relationships,Draft,D13,Founding group,To do,T20,"Service levels, fees, delegations, privacy and training provider arrangements are reviewable."
+T22,"Adopt conflict, related-party and delegation policy",Governance,Adopt,D15,Founding group,To do,T19,"Recusal, approval and spending delegations adopted by the competent boards."
+T23,Open separate bank accounts and appoint signatories,Governance,Prepare,D16,Founding group,To do,T14; T16; T22,Accounts and signatories independently resolved for each entity.
+T24,"Set up chart of accounts, payroll and monthly close in-house",Governance,Prepare,D16,Founding group,To do,T18; T23,Cash and restricted funds separated; payroll and inter-entity reconciliation documented.
+T25,Build regulator and operating compliance calendar,Governance,Prepare,D17,Founding group,To do,T14; T16; T18,Entity-specific due dates verified against notices and registrations.
+T26,"Check current zoning, overlays and existing approvals",Land & approvals,Investigate,D18,Founding group,To do,T03,Parcel-specific records include version/date and original approvals conditions.
+T27,"Describe day activities, residency and temporary stays separately",Land & approvals,Prepare,D18,Founding group,To do,T02; T26,"Numbers, durations, facilities and works described without assuming exemptions."
+T28,Request Council pre-lodgement guidance against the parcel,Land & approvals,Review,D18,Founding group,To do,T27,Written assessment pathway and information requests added to approvals matrix.
+T29,Screen SARA state referral triggers,Land & approvals,Investigate,D18,Founding group,To do,T26; T27,State-interest screening records source and competent assessment of triggers.
+T30,Confirm cultural heritage process for site activities,Land & approvals,Review,D02,Founding group,To do,T02; T03; T27,Appropriate cultural and statutory process recorded before disturbance.
+T31,Screen national environmental matters and referral need,Land & approvals,Investigate,D18,Founding group,To do,T27,Protected-matters screening and impact questions referred for competent assessment.
+T32,"Check survey, access, fire, water and wastewater capacity",Land & approvals,Investigate,D19,Founding group,To do,T03; T27,On-ground evidence replaces concept assumptions; investigation costs quoted as needed.
+T33,Define staged infrastructure and development application scope,Land & approvals,Draft,D19,Founding group,To do,T28; T29; T30; T31; T32,"Stage scope reflects requirements, site evidence and approved cultural direction."
+T34,Prepare and lodge required development/works applications,Land & approvals,Register,D18,Founding group,To do,T33,Relevant applications lodged by authorised parties; conditions and decisions tracked individually.
+T35,Select culturally approved pilot experiences,Business & operations,Decide,D20,Founding group,To do,T02; T27,"Hosts, offerings, group size and cultural permissions agreed."
+T36,Collect evidence of cultural activity demand and pricing,Business & operations,Investigate,D20,Founding group,To do,T35,"Demand, comparable offers and price assumptions have sources and dates."
+T37,Draft cultural activities business plan,Business & operations,Draft,D20,Founding group,To do,T35; T36,"Session costs, host pay, weather fallback and cash margin shown without speculative uptake."
+T38,"Define accommodation types, durations and lawful capacity",Business & operations,Prepare,D21,Founding group,To do,T28; T32,Capacity and stay types trace to approvals/investigations rather than the rough concept map.
+T39,Collect accommodation demand and full operating cost inputs,Business & operations,Investigate,D21,Founding group,To do,T38,"Occupancy, rates, cleaning, staffing, freight, utilities and maintenance assumptions labelled."
+T40,Draft temporary accommodation and residency business plan,Business & operations,Draft,D21,Founding group,To do,T38; T39,Base/low/high cases and staged inventory avoid double-counting activity income.
+T41,Build cash scenarios and funding-gap register,Business & operations,Draft,D22,Founding group,To do,T24; T37; T40,Monthly cash and actual on-costs separated by entity; no C-Hour valuation or grant assumed secured.
+T42,Prepare visitor terms and operating handbook,Business & operations,Draft,D23,Founding group,To do,T35; T38,"Bookings, refunds, conduct, amenities and complaints matched to actual stage."
+T43,"Prepare emergency plan, risk register and insurance scope",Business & operations,Draft,D24,Founding group,To do,T32; T38,"Coverage and emergency access match actual activities, guests and accommodation."
+T44,"Prepare paid roles, volunteering boundaries and training plan",Business & operations,Draft,D25,Founding group,To do,T21; T37; T40,Employer responsibilities and current worker requirements verified; volunteering never offsets wages.
+T45,"Agree media, ICIP, privacy and AI permissions",Governance,Adopt,D26,Founding group,To do,T02; T35,"Specific permissions, withdrawal and restricted data controls recorded."
+T46,Create agency written-answer and follow-up register,Relationships,Prepare,D27,Founding group,To do,T28,"Each question has the relevant agency, evidence request and response status."
+T47,Assess funding and reusable studies without relying on grants,Governance,Investigate,D28,Founding group,To do,T41,Eligibility/current rounds checked; no unsourced claims about previous transition expenditure.
+T48,Create procurement and asset ownership register,Governance,Prepare,D28,Founding group,To do,T22; T41,"Asset title, restrictions, procurement approvals and maintenance owner recorded."
+T49,Confirm relevant permissions and operating conditions for stage one,Business & operations,Review,D29,Founding group,To do,T34; T42; T43; T44; T45,Evidence for the exact first stage is complete; unresolved approvals remain visible.
+T50,"Run induction, emergency drill and operating rehearsal",Business & operations,Prepare,D29,Founding group,To do,T49,Exercise findings and corrective actions recorded before board release decision.
+T51,Record separate day-activity and stay opening decisions,Business & operations,Adopt,D29,Founding group,To do,T41; T50,Competent boards record actual decisions based on evidence for the authorised stage.
+T52,Approve a redacted public progress update,Foundations,Adopt,D30,Founding group,To do,T01,"Public status is evidence-based; personal IDs, signatures and restricted cultural records excluded."

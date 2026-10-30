@@ -1,6 +1,6 @@
 # 7-Mile planning and administration
 
-Public workbench: **https://seven-mile-planning-admin.auraofintelligence.chatgpt.site**
+Public workbench: **https://auraofintelligence.github.io/7-mile-admin-prep/**
 
 A focused establishment and operating preparation hub for an Indigenous-led 7-Mile project on Minjerribah / North Stradbroke Island, Queensland. It brings together a proposed not-for-profit and Indigenous-majority commercial entity, permanent community living, cultural activities, food growing, making, medium-term residencies and short stays.
 
@@ -36,22 +36,26 @@ The site is landlocked. The artwork is generated concept art, not photography of
 
 ## Files and maintenance
 
-`dist/` contains the deployable static site. `scripts/build-content.py` is the source of planning content, prompts and CSV exports. `scripts/build-pages.py` creates the page shells. `dist/app.js` contains the interactive workbench; `dist/styles.css` its visual system. `docs/prompts/` provides readable Markdown briefs for all 43 documents. `docs/DECISIONS.md` records current choices and gaps.
+The repository root contains the GitHub Pages site: HTML pages, `app.js`, `styles.css`, planning data, downloads and `assets/`. `scripts/build-content.py` is the source of planning content, prompts and CSV exports. `scripts/build-pages.py` creates the page shells, canonical URLs and sitemap. `docs/prompts/` provides readable Markdown briefs for all 43 documents. `docs/DECISIONS.md` records current choices and gaps.
 
 ```sh
 python scripts/build-content.py
 python scripts/build-pages.py
 python scripts/validate.py
-node --check dist/app.js
+node --check app.js
 node scripts/test-routing.cjs
 node scripts/test-planning.cjs
 ```
 
-No installation or framework build is required. Serve `dist/` with any static web host. The public Site is deployed separately; a GitHub commit does not automatically update it. Future changes are validated, pushed and deployed as a matching Site version.
+No installation, framework or external hosting service is required. GitHub Pages publishes the static files from this repository. Run the generators after content changes, run the checks, then commit the generated files alongside the source changes.
 
-## Optional GitHub Pages mirror
+## GitHub Pages publishing
 
-GitHub Pages is not enabled in the initial repository metadata. To use an additional GitHub Pages URL, open repository **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, then Save. The root landing page redirects to `dist/index.html`. This repository does not claim that mirror is live until GitHub confirms deployment.
+GitHub Pages is the only intended public host. In repository **Settings → Pages**, the publishing source is **Deploy from a branch → main → / (root)**. GitHub builds and deploys changes pushed to that source. The root `index.html` is the actual home page, not a redirect to another hosting platform or build directory.
+
+All internal links and assets are relative so they work under the `/7-mile-admin-prep/` project path. `.nojekyll` keeps the site static. `sitemap.xml`, `robots.txt` and page canonical URLs use the GitHub Pages address. The previous `/dist/*.html` paths forward to their matching root pages, preserving query strings and fragments.
+
+This repository has no dependency on ChatGPT Sites and is not to be published there. A hosting-provider change requires an explicit user request.
 
 ## Working notes and public records
 

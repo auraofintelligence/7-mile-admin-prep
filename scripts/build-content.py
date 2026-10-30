@@ -1,6 +1,6 @@
 from pathlib import Path
 import json,csv,io
-ROOT=Path(__file__).resolve().parents[1];D=ROOT/'dist';D.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];D=ROOT
 refs=[]
 def ref(i,title,url,kind,note,download=None):
  refs.append(dict(id=i,title=title,url=url,kind=kind,note=note,download=download,checked='2026-10-10',verification='Official page located; binary download not independently opened' if download else 'Official page located'))

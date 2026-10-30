@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://auraofintelligence.github.io/7-mile-admin-prep/sitemap.xml

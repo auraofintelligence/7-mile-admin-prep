@@ -3,8 +3,8 @@ const path=require('node:path');
 const vm=require('node:vm');
 const assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
-const data=JSON.parse(fs.readFileSync(path.join(root,'dist/plan.json'),'utf8'));
-const code=fs.readFileSync(path.join(root,'dist/app.js'),'utf8').split('if(docid){')[0];
+const data=JSON.parse(fs.readFileSync(path.join(root,'plan.json'),'utf8'));
+const code=fs.readFileSync(path.join(root,'app.js'),'utf8').split('if(docid){')[0];
 function render(call,search=''){
  const elements=new Map();
  function node(key){if(!elements.has(key))elements.set(key,{innerHTML:'',value:'',textContent:'',addEventListener(){},querySelectorAll(){return []},scrollIntoView(){}});return elements.get(key)}
@@ -16,7 +16,7 @@ function render(call,search=''){
 for(const call of ['overview();','originalPlan();','sitemap();','documents();','decisions();','references();','agencies();','tasks();','checklists();']){
  const out=render(call);assert.ok(out.main.length>200,call);
  for(const markup of Object.values(out))for(const match of markup.matchAll(/(?:href|src)="([^"]+)"/g)){
-  const url=match[1];if(!/^(https?:|#|data:)/.test(url))assert.ok(fs.existsSync(path.join(root,'dist',url.split(/[?#]/)[0])),call+' missing '+url);
+  const url=match[1];if(!/^(https?:|#|data:)/.test(url))assert.ok(fs.existsSync(path.join(root,url.split(/[?#]/)[0])),call+' missing '+url);
  }
 }
 for(const d of data.docs){const out=render('documentDetail(P.docs.find(d=>d.id==='+JSON.stringify(d.id)+'));');assert.ok(out.main.includes(d.title),d.id);assert.ok(out.main.includes('REFERENCE LINKS:'),d.id+' prompt links')}

@@ -1,7 +1,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 import json,re
-R=Path(__file__).resolve().parents[1];D=R/'dist';p=json.loads((D/'plan.json').read_text())
+R=Path(__file__).resolve().parents[1];D=R;p=json.loads((D/'plan.json').read_text())
 for name in ('docs','tasks','refs'):
  ids=[x['id'] for x in p[name]];assert len(ids)==len(set(ids)),name
 ids={x['id'] for x in p['docs']};tids={x['id'] for x in p['tasks']};rids={x['id'] for x in p['refs']}
@@ -39,4 +39,13 @@ for f in D.glob('*.html'):
  assert 'route-nav' in f.read_text() and 'top-button' in f.read_text()
  assert 'data-page="'+f.name+'"' in f.read_text()
  assert 'class="concept"' not in f.read_text()
+ canonical='https://auraofintelligence.github.io/7-mile-admin-prep/'+('' if f.name=='index.html' else f.name)
+ assert '<link rel="canonical" href="'+canonical+'">' in f.read_text()
+ assert 'chatgpt.site' not in f.read_text()
+ assert 'location.search+location.hash' in (D/'dist'/f.name).read_text()
+assert 'chatgpt.site' not in (R/'README.md').read_text()
+assert 'Sitemap: https://auraofintelligence.github.io/7-mile-admin-prep/sitemap.xml' in (D/'robots.txt').read_text()
+import xml.etree.ElementTree as ET
+urls=ET.parse(D/'sitemap.xml').getroot()
+assert len(urls)==len(list(D.glob('*.html')))
 print(f"Validated {len(list(D.glob('*.html')))} pages, {len(p['docs'])} prompts, task dependency DAG, identifiers and local asset links.")
